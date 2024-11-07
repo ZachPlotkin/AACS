@@ -44,6 +44,7 @@ ssize_t ModeSwitcher::handleSwitchMessage(int fd, const void *buf,
 }
 
 void ModeSwitcher::handleSwitchToAccessoryMode(const Library &lib) {
+  //test commit
   Gadget initialGadget(lib, 0x12d1, 0x107e, rr("initial_state"));
   initialGadget.setStrings("TAG", "AAServer", sr("TAGAAS"));
 
