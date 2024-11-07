@@ -36,4 +36,5 @@ MassStorageFunction::MassStorageFunction(const Gadget &gadget,
       gadget.getGadget(), usbg_function_type::USBG_F_MASS_STORAGE,
       function_name.c_str(), &f_attrs, &function));
   this->function = function;
+  //test comment
 }
